@@ -11,12 +11,13 @@ import java.util.concurrent.TimeUnit;
 public class MainTest {
 	
 	public static void main(String[] args) throws Exception {
+		System.out.println("hahha devolpment");
 		long curr = System.currentTimeMillis();
 		SimpleDateFormat sdfs = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String time = "2019-07-30 16:55:00";
+		String time = "2019-04-30 16:55:00";
 //		long ll = new Date(2019, 4, 30).getTime();
 		if(curr > sdfs.parse(time).getTime()) {
-			System.out.println(curr + "dd === " + time + " === " + sdfs.parse(time).getTime());
+			System.out.println(curr + "=== " + time + " === " + sdfs.parse(time).getTime());
 			System.out.println(curr + " ===sss " + time + " === " + sdfs.parse(time).getTime());
 		} else {
 			System.out.println(66);
