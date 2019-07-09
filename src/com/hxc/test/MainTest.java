@@ -8,18 +8,15 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import sun.nio.cs.SingleByte;
-
 public class MainTest {
 	
 	public static void main(String[] args) throws Exception {
 		long curr = System.currentTimeMillis();
 		SimpleDateFormat sdfs = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String time = "2019-04-30 16:55:00";
+		String time = "2019-07-30 16:55:00";
 //		long ll = new Date(2019, 4, 30).getTime();
 		if(curr > sdfs.parse(time).getTime()) {
-			
-			System.out.println(curr + " === " + time);
+			System.out.println(curr + "dd === " + time + " === " + sdfs.parse(time).getTime());
 		} else {
 			System.out.println(66);
 		}
