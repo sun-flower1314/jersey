@@ -17,6 +17,7 @@ public class MainTest {
 //		long ll = new Date(2019, 4, 30).getTime();
 		if(curr > sdfs.parse(time).getTime()) {
 			System.out.println(curr + "dd === " + time + " === " + sdfs.parse(time).getTime());
+			System.out.println(curr + " ===sss " + time + " === " + sdfs.parse(time).getTime());
 		} else {
 			System.out.println(66);
 		}
